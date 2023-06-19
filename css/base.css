@@ -1,0 +1,94 @@
+.container {
+  max-width: 1240px;
+  margin: 0 auto;
+}
+
+.col-1 {
+  width: 8.333333%;
+}
+.col-2 {
+  width: 16.666666%;
+}
+.col-3 {
+  width: 25%;
+}
+.col-4 {
+  width: 33.333333%;
+}
+.col-5 {
+  width: 41.666666%;
+}
+.col-6 {
+  width: 50%;
+}
+.col-7 {
+  width: 58.333333%;
+}
+.col-8 {
+  width: 66.666666%;
+}
+.col-9 {
+  width: 75%;
+}
+.col-10 {
+  width: 83.333333%;
+}
+.col-11 {
+  width: 91.666666%;
+}
+.col-12 {
+  width: 100%;
+}
+
+/* margin setting */
+.mg-auto {
+  margin: 0 auto;
+}
+.mb32 {
+  margin-bottom: 32px;
+}
+.mb220 {
+  margin-bottom: 220px;
+}
+.mt220 {
+  margin-top: 220px;
+}
+/* page header text */
+.headerTitle {
+  font-size: 44px;
+  font-weight: bold;
+  width: 100%;
+  padding-top: 115px;
+  text-align: center;
+}
+
+/* font setting */
+.medicalH2 {
+  font-size: 32px;
+  font-weight: 500;
+  text-align: center;
+  margin: 15px 0 32px;
+}
+.medical_h3 {
+  font-weight: 500;
+  font-size: 26px;
+}
+.medical_h4 {
+  font-size: 20px;
+  font-weight: 500;
+  text-align: left;
+}
+
+.textB {
+  font-weight: bold;
+}
+.textM {
+  font-weight: 500;
+}
+.smText {
+  font-size: 14px;
+}
+/* border-radius */
+.br60 {
+  border-radius: 60px;
+}

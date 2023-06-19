@@ -1,0 +1,235 @@
+body {
+  /* font-family: "Montserrat", sans-serif; */
+  font-family: "Noto Sans TC", "Montserrat";
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 1.26px;
+  color: #333;
+}
+
+.scroll_text {
+  position: fixed;
+  z-index: 999;
+  writing-mode: vertical-rl;
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 12px;
+  margin-left: 76px;
+  position: absolute;
+  /* left: 76px; */
+  top: 812px;
+}
+.scroll_text::before {
+  content: "";
+  width: 1px;
+  height: 80px;
+  position: absolute;
+  top: 70px;
+  left: 10px;
+  background: #333;
+}
+
+/* <!-- ------------------ phoneBox ------------------ --> */
+.phoneBox {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  gap: 10px;
+  max-width: 100%;
+  background: #fbf8ee;
+  border-radius: 20px;
+  position: absolute;
+  right: 80px;
+  top: 850px;
+  text-align: center;
+}
+.phoneText span {
+  font-size: 20px;
+  font-weight: 500;
+}
+.phoneText p {
+  font-size: 52px;
+  font-weight: 600;
+  font-family: "Montserrat";
+  line-height: 140%;
+}
+
+.btnFamily {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+}
+.svgSet {
+  display: inline-block;
+  margin-left: 12px;
+  line-height: 18px;
+  padding-bottom: 4px;
+}
+.svgSetPhone {
+  display: inline-block;
+  margin-right: 12px;
+}
+/* -------------- btn -------------- */
+.btn-hover.color-8 {
+  background-image: linear-gradient(to right, #333, #485563, #333);
+}
+
+.btn-hover {
+  /* width: 200px; */
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 10px;
+  height: 55px;
+  text-align: center;
+  border: none;
+  background-size: 300% 100%;
+  border-radius: 12px;
+
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.btn-hover:hover {
+  background-position: 100% 0;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.btn-hover:focus {
+  outline: none;
+}
+
+/* ------------------ header ------------------- */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 45px 100px;
+}
+.nav_text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 631.22px;
+}
+
+/* 線線跑邊框 */
+.nav_text li {
+  position: relative;
+}
+.nav_text li a {
+  color: #333;
+  font-size: 18px;
+  font-weight: bold;
+  display: block;
+  padding: 20px 0;
+}
+.nav_text li a:before {
+  content: "";
+  width: 0px;
+  height: 2px;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  background-color: #333;
+  transition: all 0.5s;
+}
+
+.nav_text li a:hover:before {
+  width: 100%;
+}
+
+/* -------------------- footer ------------------ */
+.footer_box {
+  /* height: 413px; */
+  background-image: url("../img/footer-bg.jpg");
+  background-size: cover;
+  /* background-color: #4ecbd3; */
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 100px 200px;
+}
+.footer_boxLeft {
+  display: flex;
+}
+/* --------- footer資訊列表 --------- */
+.footer_info {
+  margin: 0 100px;
+}
+
+.footer_info dl {
+  display: flex;
+  position: relative;
+  margin-bottom: 20px;
+  line-height: 30px;
+}
+.footer_info dt {
+  font-weight: bold;
+  margin-right: 20px;
+}
+.footer_info dd {
+  margin-left: 20px;
+}
+.mrb20 {
+  margin-right: 20px;
+  font-weight: bold;
+}
+/* 白線條 */
+.whiteline::before {
+  content: "";
+  width: 1px;
+  height: 45px;
+  position: absolute;
+  top: 9px;
+  left: 83px;
+  background-color: #fff;
+}
+
+.whiteline-short::before {
+  content: "";
+  width: 1px;
+  height: 16px;
+  position: absolute;
+  top: 9px;
+  left: 83px;
+  background-color: #fff;
+}
+
+/* --------- footer營業列表 --------- */
+/* .open_hours {
+} */
+.hours01 {
+  /* width: 100%; */
+  text-align: center;
+  border-bottom: 1px solid #fff;
+  margin-bottom: 20px;
+}
+/* tbody {
+} */
+th {
+  border-bottom: 1px solid #fff;
+  padding-bottom: 15px;
+}
+td {
+  border-bottom: 1px solid #fff;
+  padding: 15px;
+}
+/* tr {
+} */
+.text_right {
+  text-align: right;
+}
+/* 養成班聲明 */
+.under_text {
+  padding: 40px;
+  text-align: center;
+  font-weight: 300;
+  color: #778092;
+}

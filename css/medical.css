@@ -1,0 +1,334 @@
+.headerBg {
+  background: #fff;
+}
+
+/* --------- 一般門診 （白底）--------- */
+.outpatient {
+  padding: 120px 0;
+  background-color: #fff;
+  border-radius: 0 0 280px 0;
+  margin-bottom: 120px;
+}
+.outpatient h2 {
+  margin-bottom: 50px;
+}
+.outpatientBox {
+  background-color: #ffec9d;
+  border-radius: 12px 280px 12px 12px;
+  display: flex;
+  align-items: center;
+  padding: 100px;
+  gap: 40px;
+}
+.outpatientItems {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+.outpatientItems .outpatient_Icon {
+  background-color: #fdfaf5;
+  margin-bottom: 12px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+}
+.outpatient_Icon img {
+  padding: 30px;
+}
+.outpatientItems span {
+  font-weight: 500;
+}
+/* --------- 外科手術 （淡底）--------- */
+.surgery h2 {
+  margin-bottom: 120px;
+}
+.medical_title {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.sterility_content,
+.tooth_content {
+  display: flex;
+  gap: 32px;
+}
+/*  < 絕育手術  */
+.sterility,
+.tooth {
+  margin: 70px 0 100px;
+}
+.surgery_box {
+  padding: 40px;
+  background-color: #fffdfb;
+  border-radius: 20px;
+}
+.sterility_list li {
+  margin-bottom: 32px;
+  overflow: hidden;
+}
+.sterility_list li .sterility_items {
+  width: 100px;
+  height: 100px;
+  background-color: #ffec9d;
+  border-radius: 50px;
+  float: left;
+  margin-right: 32px;
+}
+.girl img {
+  padding: 27.5px 35px;
+}
+.boy img {
+  padding: 25px;
+}
+.price {
+  background: #4ecbd3;
+  color: #fff;
+  padding: 8px 30px;
+  border-radius: 20px 0 20px 0;
+  display: inline-block;
+  position: relative;
+  top: -40px;
+  left: -40px;
+}
+.price_item li {
+  padding: 20px 0;
+  border-bottom: 1px solid #e6e6e6;
+}
+.itemTextB {
+  font-weight: 500;
+  margin-right: 20px;
+}
+/*  < 牙周治療  */
+.tooth_box p {
+  text-align: justify;
+}
+.tooth_box li {
+  border-bottom: 1px solid #dedede;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+.tooth_box li span:first-child {
+  font-weight: 500;
+  margin-right: 20px;
+}
+/*  < 其他手術  */
+.other_content {
+  padding: 40px;
+  background-color: #fffdfb;
+  border-radius: 20px;
+  margin-bottom: 130px;
+  display: flex;
+  flex-direction: column;
+}
+.other_list {
+  display: flex;
+  align-items: center;
+  padding: 20px 0;
+  border-bottom: 1px solid #e6e6e6;
+}
+.other_list:last-child {
+  border: none;
+}
+.other_list h4 {
+  font-weight: 500;
+  width: 10%;
+}
+.other_list p {
+  width: 80%;
+  text-align: justify;
+}
+/* --------- 預防疫苗 和 24H 和 臨終關懷（白底）--------- */
+.p-24H {
+  padding: 120px 0;
+  background: #fff;
+  border-radius: 280px 0 0 0;
+}
+.preventive {
+  margin: 0 auto 90px;
+}
+.preventive_title {
+  text-align: center;
+  margin-bottom: 75px;
+}
+.preventive_box {
+  border-radius: 20px;
+  border: 1px solid #d0d0d0;
+  padding: 40px 60px;
+}
+.preventive_box ul {
+  display: flex;
+  /* justify-content: space-between; */
+}
+.preventive_box hr {
+  border: 0;
+  border-left: 1px solid #e6e6e6;
+  margin-left: 30px;
+}
+.preventive_list {
+  overflow: hidden;
+  clear: both;
+  width: 45%;
+}
+.preventive_icon {
+  float: left;
+  margin-right: 32px;
+  height: 100%;
+}
+.preventive_icon img {
+  width: 100px;
+  height: 100px;
+  background: rgba(229, 235, 234, 0.3);
+  border-radius: 50px;
+  padding: 30px;
+}
+.yellowPrice {
+  background: #ffec9d;
+  color: #000;
+  top: -42px;
+  left: -61px;
+  border-right: 5px solid #fff;
+  border-bottom: 5px solid #fff;
+}
+
+/* --------- 24H --------- */
+.urgent {
+  margin-right: 10%;
+  position: relative;
+}
+.urgent_box {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  gap: 150px;
+  margin-bottom: 448px;
+  position: relative;
+  z-index: 1;
+}
+.urgent_box h2 {
+  text-align: left;
+  margin-bottom: 50px;
+}
+.urgent_bg {
+  height: 635px;
+  background: #e5ebea;
+  border-radius: 12px 12px 12px 280px;
+  margin-left: 15%;
+  position: absolute;
+  top: 93px;
+  left: -30%;
+}
+
+/*  care  */
+.care {
+  display: flex;
+  align-items: center;
+  gap: 128px;
+}
+.care_box {
+  width: 470px;
+}
+.care_box h2 {
+  text-align: left;
+  margin-bottom: 78px;
+}
+
+/* --------- 其他檢查, 健康檢查 （淡底）--------- */
+/* 其他檢查 */
+.bg-brR280 {
+  border-radius: 12px 280px 12px 12px;
+  background: #fbf8ee;
+  overflow: hidden;
+}
+
+.check {
+  display: flex;
+  align-items: center;
+  gap: 128px;
+  margin: 240px auto 200px;
+}
+.check_content h2 {
+  text-align: left;
+  margin-bottom: 78px;
+}
+.check_content h4 {
+  margin-bottom: 24px;
+}
+
+/*  健康檢查  */
+.healthy {
+  margin: 0 auto 200px;
+}
+.healthy_title {
+  margin-bottom: 88px;
+  text-align: center;
+}
+.healthy_box {
+  display: flex;
+  gap: 32px;
+  border-radius: 20px;
+}
+.healthy_items {
+  background: #fffdfb;
+  padding: 40px;
+  border-radius: 20px;
+}
+h5.smTag {
+  width: 110px;
+  font-weight: 500;
+  padding: 8px 20px;
+  background: #faecd6;
+  border-radius: 100px;
+}
+.healthy_list {
+  display: flex;
+  align-items: center;
+  padding: 20px 0;
+  border-top: 1px solid #e6e6e6;
+  border-bottom: 1px solid #e6e6e6;
+}
+.healthy_list h4 {
+  font-weight: 500;
+  width: 25%;
+}
+.healthy_list p {
+  width: 75%;
+  text-align: justify;
+}
+
+/* ---------------- 背景 ---------------- */
+.bigSurgeryBox {
+  background: #fbf8ee;
+  position: absolute;
+  width: 100%;
+  height: 2875px;
+  left: 0;
+  top: 1250px;
+  z-index: -1;
+}
+.bggCircle {
+  position: absolute;
+  width: 1200px;
+  height: 1200px;
+  left: -457px;
+  top: 2000px;
+  background: #eddfbb;
+  opacity: 0.3;
+  border-radius: 842.8px;
+}
+.bggSquare {
+  /* background-attachment: fixed; */
+  position: absolute;
+  width: 274px;
+  /* height: 274px; */
+  left: 1422px;
+  right: 200px;
+  bottom: 1908px;
+}
+/* .bggSquare {
+  position: fixed;
+  width: 274px;
+  height: 274px;
+  left: 1430px;
+  bottom: 630px;
+  z-index: 10;
+} */

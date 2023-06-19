@@ -1,0 +1,126 @@
+main {
+  background: #fbf8ee;
+}
+.bg_white {
+  max-width: 1600px;
+  margin: 66px auto 0;
+  padding-bottom: 150px;
+  background: #fff;
+  border-radius: 280px 12px 12px 12px;
+}
+.omg_content {
+  padding-top: 143px;
+}
+.omg_box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 60px;
+  margin-bottom: 90px;
+}
+.omg_box p {
+  text-align: justify;
+}
+.omg_content h2 {
+  font-size: 32px;
+  font-weight: 500;
+  margin-bottom: 32px;
+}
+.omg_box li {
+  width: 100px;
+  height: 100px;
+  background: #fdfaf5;
+  border-radius: 100px;
+  text-align: center;
+  line-height: 100px;
+  display: inline-block;
+}
+.omg_box li:hover {
+  background: #ffec9d;
+  transition: all 1s;
+}
+.omg_box li a {
+  display: block;
+  font-weight: 500;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+/* ----------------- login ----------------- */
+.loginDog_content {
+  padding-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 120px;
+}
+.login_text h2 {
+  font-size: 40px;
+}
+.login_text h2 + p {
+  margin-bottom: 40px;
+}
+.login_text span {
+  opacity: 0.5;
+  margin-right: 12px;
+}
+.smText {
+  text-align: right;
+  color: rgba(14, 23, 31, 0.4);
+}
+
+.inputText {
+  padding: 12px;
+  width: 410px;
+  height: 60px;
+  margin-bottom: 10px;
+  border: 1px solid rgba(14, 23, 31, 0.25);
+  border-radius: 8px;
+  color: rgba(14, 23, 31, 0.4);
+  opacity: 0.4;
+  outline-style: none;
+}
+.inputText:focus {
+  border-color: #666;
+}
+
+.btn-hover.color-11 {
+  background-image: linear-gradient(
+    to right,
+    #4ecbd3,
+    #4db0b7,
+    #4ecbd3,
+    #4db0b7
+  );
+  box-shadow: 0 5px 15px rgba(33, 157, 185, 0.4);
+}
+.btn-hover {
+  width: 200px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  margin: 20px;
+  height: 55px;
+  text-align: center;
+  border: none;
+  background-size: 300% 100%;
+  border-radius: 50px;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+.btn-hover:hover {
+  background-position: 100% 0;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+.btn-hover:focus {
+  outline: none;
+}
