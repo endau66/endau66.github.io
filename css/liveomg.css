@@ -95,7 +95,7 @@ main {
     #4ecbd3,
     #4db0b7
   );
-  box-shadow: 0 5px 15px rgba(33, 157, 185, 0.4);
+/*   box-shadow: 0 5px 15px rgba(33, 157, 185, 0.4); */
 }
 .btn-hover {
   width: 200px;
