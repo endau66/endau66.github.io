@@ -433,9 +433,6 @@
 @media (max-width: 768px) {
   .banner .banner-img-old {
     max-width: 100%;
-    
-    
-
   }
   .fir_text {
     font-size: 32px;
@@ -451,11 +448,9 @@
     right: 40px;
     top: 480px;
   }
-  .phoneText p {
-    font-size: 28px;
-  }
+
   .phoneText .svgSetPhone {
-    width: 10%;
+    width: 8%;
   }
   .btn-hover.color-8 {
     padding: 2px 4px 3px;
@@ -466,23 +461,25 @@
   }
   .aboutBox {
     margin-top: 400px;
+    gap: 80px;
+  }
+  .aboutBox img{
+    width: 78%;
   }
   .medical_textWrapper {
-    padding: 60px 20px;
+    padding: 60px 50px;
   }
   .medical_items {
     width: auto;
   }
   .medical_items h2 {
     margin-bottom: 32px;
-    margin-left: 38px;
+
   }
-  .medical .viewMoreText {
-    margin-left: 45px;
-  }
+  
   .itemsBox {
     margin-bottom: 32px;
-    justify-content: center;
+    justify-content: space-between;
   }
   .itemsBox li {
     width: 200px;
@@ -519,13 +516,18 @@
     margin-top: 100px;
     gap: 50px;
   }
-
+  .aboutBox img{
+    max-width: 85%;
+  }
   .news {
     margin-top: 50px;
   }
   .indexH2 {
-    font-size: 32px;
+    font-size: 28px;
     margin-bottom: 20px;
+  }
+  .indexH3{
+    font-size: 22px;
   }
   .arrow {
     width: 40px;
@@ -569,6 +571,9 @@
   .itemsBox li a img {
     width: 40%;
     margin-bottom: 12px;
+  }
+  .medical_textWrapper{
+    padding: 40px 20px;
   }
 }
 @media (max-width: 375px) {
