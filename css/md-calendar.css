@@ -130,8 +130,8 @@
 }
 .radio-button::after {
   content: "";
-  width: 15px;
-  height: 15px;
+  width: 10px;
+  height: 10px;
   background: var(--blue);
   border-radius: 50%;
   position: absolute;
@@ -147,6 +147,9 @@
   opacity: 1;
 }
 /* ------------------ 日曆開始 ------------------ */
+#calendar{
+  margin-bottom: 50px;
+}
 .header {
   width: 100%;
   text-align: center;
@@ -214,10 +217,12 @@
   border-radius: 6.8px;
   margin: 6px;
   overflow: hidden;
+  gap: 2px;
 }
 .day.dayOpen {
   cursor: pointer;
-  border: 2px solid var(--blue);
+  /* border: 2px solid var(--blue); */
+  outline: 2px solid var(--blue);
 }
 
 /* 上下個月的日期 */
@@ -248,8 +253,9 @@
 
 .day-number {
   text-align: right;
-  font-size: 14px;
-  color: #5c5c5c;
+  font-size: 12px;
+  /* color: #C6C6C6; */
+  color: var(--dayOffText);
   line-height: 1;
   font-weight: 500;
 }
@@ -257,15 +263,15 @@
 .day .day-events {
   display: flex;
   justify-content: center;
-  gap: 8px;
+  
 }
 
 .day .day-events span {
   display: inline-block;
   max-width: 100%;
-  width: 20px;
-  height: 20px;
-  /* margin: 0 3px; */
+  width: 10px;
+  height: 10px;
+  margin: 0 3px;
   border-radius: 50%;
 }
 
@@ -281,7 +287,25 @@
   background: #b991ed;
   /* border: 2px solid #b991ed; */
 }
+.calenName{
+  display: flex;
+  align-items: center;
 
+}
+.calenName span{
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0 5px;
+}
+.calenName p{
+  font-size: 14px;
+  display: inline-block;
+  margin-left: 5px;
+  right: 0;
+  position: relative;
+}
 /* 按鈕 */
 .step-btn {
   margin: 0 auto;
@@ -337,4 +361,57 @@
 .booking_button:disabled {
   cursor: not-allow;
   background-color: var(--light-grey);
+}
+@media (max-width: 1200px) {
+  .day{
+    height: 7em;
+  }
+  
+}
+@media (max-width: 850px) {
+  .day-name{
+    font-size: 16px;
+  }
+  .day{
+    height: 5em;
+    margin: 4px;
+  }
+  
+}
+@media (max-width: 434px) {
+  #calendar-wrapper{
+    margin-top: 120px;
+    
+  }
+  #calendar{
+    padding: 10px;
+  }
+  .checkBox p{
+    margin-right: 20px;
+  }
+  .day{
+    width: 50%;
+    height: 4em;
+    
+  }
+  .day-name{
+    font-size: 12px;
+  }
+  .day-number{
+    display: none;
+  }
+  .day .day-events{
+    flex-direction: column;
+    align-items: center;
+  }
+  .day.dayOpen{
+    outline: 1px solid var(--blue);
+  }
+  .day .day-events span{
+    width: 8px;
+    height: 8px;
+  }
+  .btn{
+    display: none;
+  }
 }
