@@ -386,6 +386,9 @@
   #calendar{
     padding: 10px;
   }
+  .checkBox {
+    padding: 20px 10px;
+}
   .checkBox p{
     margin-right: 20px;
   }
