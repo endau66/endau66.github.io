@@ -1,0 +1,555 @@
+.indexH2 {
+  font-size: 44px;
+  line-height: 1.5;
+  margin-bottom: 45px;
+}
+.indexH3 {
+  font-size: 20px;
+  margin-bottom: 15px;
+  line-height: 32px;
+}
+/* -------- 首頁圖 -------- */
+
+.banner {
+  margin-top: 100px;
+  position: relative;
+}
+.banner .banner-img-old {
+  margin: 100px auto;
+}
+
+/* .banner_img {
+  background-image: url("/img/index/banner-l.png");
+  background-position: top center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 800px;
+} */
+
+.banner-dc {
+  position: absolute;
+  /* z-index: -55; */
+}
+/* .banner-dc.dc-yellow-l {
+  top: 290px;
+  left: 360px;
+}
+.banner-dc.dc-yellow-s {
+  bottom: 150px;
+  right: 250px;
+} */
+.banner-dc.dc-ys-l {
+  top: 350px;
+  left: 160px;
+}
+.banner-dc.dc-ys-s {
+  top: 150px;
+  left: 650px;
+}
+/* .banner-dc.dc-blue {
+  top: 60px;
+  right: 410px;
+  opacity: 0.1;
+} */
+.banner-dc.dc-bls {
+  bottom: 10px;
+  right: 769px;
+  opacity: 0.5;
+}
+.fir_text {
+  font-weight: 700;
+  letter-spacing: 15px;
+  font-size: 44px;
+  writing-mode: vertical-rl;
+  position: absolute;
+  z-index: 30;
+  top: 550px;
+  left: 300px;
+  height: 400px;
+}
+.sec_text {
+  font-weight: 700;
+  letter-spacing: 15px;
+  font-size: 44px;
+  writing-mode: vertical-rl;
+  position: absolute;
+  z-index: 30;
+  top: 550px;
+  left: 220px;
+  height: 400px;
+}
+.grayLogo {
+  position: absolute;
+  left: 130px;
+  top: 880px;
+  z-index: -1;
+}
+/* -------- 關於我們 -------- */
+.aboutBox {
+  margin: 500px 50px 250px;
+  display: flex;
+  align-items: center;
+  gap: 100px;
+  position: relative;
+}
+.aboutBoxText {
+  display: flex;
+  flex-direction: column;
+}
+.aboutBoxText P {
+  margin-bottom: 45px;
+  text-align: justify;
+}
+.viewMoreText {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+}
+.arrow {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: #4ecbd3;
+  margin-left: 20px;
+  transition: all 0.5s;
+}
+.arrow:hover {
+  background: #ffec9d;
+  transform: translateX(10px) scale(1.2);
+}
+.arrow svg {
+  display: inline-block;
+  margin: 26px 19px;
+}
+
+/* -------- 診療項目 -------- */
+.medical {
+  display: flex;
+  gap: 70px;
+  margin-bottom: 250px;
+}
+.medical_imgWrapper {
+  background-color: #e5ebea;
+  border-radius: 0 12px 280px 0;
+  /* margin-right: 70px; */
+  position: relative;
+}
+.medical_textWrapper {
+  width: 100%;
+  background-color: #e5ebea;
+  border-radius: 12px 0 0 280px;
+  /* padding: 160px 250px; */
+  position: relative;
+}
+.medical_items {
+  width: 750px;
+  max-width: 100%;
+  margin: 160px 300px 160px 300px;
+  z-index: 1;
+  position: relative;
+}
+.medical_items h2 {
+  margin-bottom: 64px;
+}
+
+.itemsBox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  gap: 20px;
+}
+.itemsBox li {
+  width: 216px;
+  height: 216px;
+  background-color: #fff;
+  margin-bottom: 44px;
+  border-radius: 20px;
+  text-align: center;
+  position: relative;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.itemsBox li a {
+  color: #333;
+  font-size: 20px;
+  font-weight: bold;
+  display: block;
+  margin: 38px 0;
+}
+.itemsBox li:hover {
+  opacity: 0.8;
+  transform: scale(1.1);
+  box-shadow: 4px 4px 15px 0 rgba(100, 100, 100, 0.15);
+}
+
+/* .itemsBox li a:before {
+  content: "";
+  width: 0px;
+  height: 0px;
+  border-radius: 20px;
+  position: absolute;
+  top: 0px;
+  bottom: 0;
+  right: 0;
+  left: 0px;
+  margin: auto;
+  background-color: #e5ebea;
+  transition: all 0.5s;
+  opacity: 0.1;
+}
+.itemsBox li a:hover:before {
+  width: 216px;
+  height: 216px;
+  box-shadow: 4px 4px 15px 0 rgba(58, 58, 58, 0.75);
+  opacity: 0.1;
+} */
+
+.itemsBox li a img {
+  margin: 0 auto 24px;
+}
+
+/* -------- 更多消息 -------- */
+.news {
+  margin: 130px auto 250px;
+}
+.news .viewMoreText {
+  margin-bottom: 20px;
+  justify-content: flex-end;
+}
+.information-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #e1e4e6;
+  padding: 32px 0;
+}
+.information-list:last-child {
+  border-bottom: 1px solid #e1e4e6;
+}
+.information_text {
+  max-width: 500px;
+}
+.information_text .date {
+  font-family: "Montserrat";
+  font-size: 14px;
+  margin-right: 20px;
+}
+.information_text .category {
+  padding: 0 21px 2px;
+  font-size: 14px;
+  border-radius: 11px;
+  font-weight: bold;
+  background: #f1f1f1;
+}
+.information_text h6 {
+  font-weight: bold;
+  margin-top: 10px;
+  text-align: justify;
+}
+.information_text p {
+  font-size: 14px;
+  text-align: justify;
+  margin-right: 50px;
+}
+
+.newsMoreText {
+  position: relative;
+}
+.newsArrow {
+  width: 50px;
+  height: 50px;
+}
+.newsArrow::after {
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  top: 0px;
+  bottom: 0;
+  right: 0;
+  left: 0px;
+  margin: auto;
+  border-radius: 50%;
+  background: #fdfaf5;
+  transition: all 0.5s;
+  z-index: -30;
+}
+.newsArrow:hover::after {
+  /* border: 1px solid #333; */
+  width: 50px;
+  height: 50px;
+}
+.newsArrow svg {
+  display: inline-block;
+  margin: 21px 14px;
+}
+
+@media (max-width: 1024px) {
+  .scroll_text {
+    margin-left: 20px;
+  }
+
+  .newsArrow::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 50%;
+    background: #fdfaf5;
+    opacity: 0;
+    z-index: -1;
+    animation: fade-in 3s infinite;
+  }
+
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+}
+
+/* bg_text */
+.bgText {
+  position: absolute;
+  right: 0;
+}
+.bg_about {
+  top: 1300px;
+  z-index: -10;
+}
+.bg_service {
+  top: 15px;
+  right: 0;
+  opacity: 0.6;
+  position: absolute;
+}
+.bg_pattern {
+  width: 500px;
+  position: absolute;
+  left: 0;
+  top: 250px;
+}
+.bg_information {
+  position: absolute;
+  /* bottom: 0; */
+  right: 0;
+  z-index: -10;
+}
+.bg_circle {
+  left: 0;
+  top: 4000px;
+  z-index: -10;
+}
+
+/* --------- rwd --------- */
+@media (max-width: 1200px) {
+  .banner-img {
+    width: 85%;
+    padding: 0;
+  }
+  .aboutBox {
+    /* display: block; */
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 100px;
+    margin-bottom: 100px;
+  }
+  .medical_imgWrapper {
+    display: none;
+  }
+  .medical_textWrapper {
+    border-radius: 0;
+    padding: 100px 32px;
+  }
+  .medical_items {
+    margin: 0 auto;
+  }
+  .bg_pattern {
+    display: none;
+  }
+  .medical {
+    margin-bottom: 100px;
+  }
+}
+@media (max-width: 1000px) {
+  .banner .banner-img-old {
+    margin: 0;
+  }
+  .fir_text {
+    font-size: 40px;
+    top: 380px;
+    left: 190px;
+  }
+  .sec_text {
+    font-size: 40px;
+    top: 380px;
+    left: 130px;
+  }
+  .phoneBox {
+    right: 40px;
+    top: 656px;
+    max-width: 50%;
+  }
+  .phoneText p {
+    font-size: 44px;
+  }
+  .grayLogo {
+    top: 600px;
+    left: 80px;
+  }
+  .aboutBox {
+    margin-top: 400px;
+  }
+}
+@media (max-width: 768px) {
+  .banner .banner-img-old {
+    max-width: 100%;
+  }
+  .fir_text {
+    font-size: 32px;
+    top: 300px;
+    left: 130px;
+  }
+  .sec_text {
+    font-size: 32px;
+    top: 300px;
+    left: 80px;
+  }
+  .phoneBox {
+    right: 40px;
+    top: 556px;
+  }
+  .phoneText p {
+    font-size: 28px;
+  }
+  .phoneText .svgSetPhone {
+    width: 10%;
+  }
+  .btn-hover.color-8 {
+    padding: 2px 4px 3px;
+  }
+  .grayLogo {
+    top: 600px;
+    left: 80px;
+  }
+  .aboutBox {
+    margin-top: 400px;
+  }
+  .medical_textWrapper {
+    padding: 60px 20px;
+  }
+  .medical_items {
+    width: auto;
+  }
+  .medical_items h2 {
+    margin-bottom: 32px;
+    margin-left: 38px;
+  }
+  .medical .viewMoreText {
+    margin-left: 45px;
+  }
+  .itemsBox {
+    margin-bottom: 32px;
+    justify-content: center;
+  }
+  .itemsBox li {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 0;
+  }
+  .itemsBox li a {
+    margin: 30px 0;
+  }
+  .news {
+    margin-bottom: 150px;
+  }
+  .bg_service,
+  .bg_information {
+    width: 50%;
+  }
+}
+
+@media (max-width: 434px) {
+  .fir_text {
+    font-size: 18px;
+    top: 100px;
+    left: 60px;
+  }
+  .sec_text {
+    font-size: 18px;
+    top: 100px;
+    left: 30px;
+  }
+  .phoneBox {
+    display: none;
+  }
+  .aboutBox {
+    margin-top: 100px;
+    gap: 50px;
+  }
+
+  .news {
+    margin-top: 50px;
+  }
+  .indexH2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  .arrow {
+    width: 40px;
+    height: 40px;
+    margin-left: 12px;
+  }
+  .arrow svg {
+    margin: 16px 9px;
+  }
+  .viewMoreText {
+    font-size: 16px;
+  }
+  .grayLogo {
+    display: none;
+  }
+  .bg_about {
+    top: 690px;
+    width: 60%;
+  }
+  .bg_information {
+    display: none;
+  }
+  .information-list {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .information_text p {
+    margin: 0 0 10px;
+  }
+  .medical_items {
+    width: 90%;
+  }
+  .itemsBox li {
+    width: 150px;
+    height: 150px;
+  }
+  .itemsBox li a {
+    margin: 23.8px 0;
+    font-size: 16px;
+  }
+  .itemsBox li a img {
+    width: 40%;
+    margin-bottom: 12px;
+  }
+}
+@media (max-width: 375px) {
+  .medical_items {
+    width: auto;
+  }
+}

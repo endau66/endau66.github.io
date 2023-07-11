@@ -1,0 +1,107 @@
+.notes {
+  margin-top: 120px;
+  border-radius: 20px 20px 0 0;
+}
+.notes h5 {
+  border-radius: 20px 20px 0px 0px;
+  padding: 20px;
+  background: #ffec9d;
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+}
+.notes_list {
+  background: #fdfaf5;
+  padding: 40px;
+  line-height: 32px;
+  margin-bottom: 60px;
+}
+.notes_list h6 {
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.sm_list {
+  border-radius: 20px 20px 0px 0px;
+}
+.sm_list li {
+  height: 120px;
+}
+
+.sm_list h5 {
+  border-radius: 20px 20px 0px 0px;
+  background: #4ecbd3;
+  color: #fff;
+  padding: 12px;
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+}
+.sm_list ul {
+  padding: 32px;
+  background: rgba(215, 244, 247, 0.5);
+  /* margin-bottom: 100px; */
+}
+.sm_list ul li {
+  margin-bottom: 20px;
+  text-align: justify;
+}
+.smText {
+  line-height: 30px;
+  letter-spacing: normal;
+}
+.booking_button {
+  display: block;
+  margin-top: 68px;
+  border-radius: 50px;
+  background: #4ecbd3;
+  font-weight: 700;
+  font-size: 20px;
+  padding: 7px;
+  animation: blink 2s infinite;
+}
+.booking_items {
+  display: flex;
+  gap: 32px;
+}
+
+@keyframes blink {
+  0% {
+    background-color: #4ecbd3;
+  }
+  50% {
+    background-color: #61dfe8;
+  }
+  100% {
+    background-color: #4ecbd3;
+  }
+}
+
+@media (max-width: 800px) {
+  .mb220 {
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 434px) {
+  .medicalH2 {
+    font-size: 24px;
+  }
+  .medical_h3 {
+    font-size: 22px;
+  }
+  .container img {
+    display: none;
+  }
+  .booking_items {
+    flex-direction: column;
+    margin-bottom: 100px;
+  }
+  .sm_list li {
+    height: auto;
+  }
+  .mb220 {
+    margin-bottom: 0;
+  }
+}

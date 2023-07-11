@@ -1,0 +1,89 @@
+.googleMap {
+  margin: 100px auto 0;
+}
+.googleMap iframe {
+  display: block;
+  width: 100%;
+}
+.contentH2 {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 80px auto 0;
+  text-align: center;
+  /* border: 10px solid #4ecbd3; */
+  background-image: linear-gradient(
+    to bottom,
+    #4ecbd3,
+    #4ecad5,
+    #4ec9d8,
+    #4fc8da,
+    #50c7dc
+  );
+  box-shadow: 0px 3px 5px rgba(220, 220, 220, 1);
+  border-radius: 50px;
+  padding: 50px;
+  /* border-bottom: 1px solid #333; */
+  color: #fff;
+}
+
+.contentH2 span {
+  color: #fff;
+  font-family: "Montserrat";
+}
+.traffic_box {
+  margin-top: 150px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 100px;
+  padding: 0 100px;
+}
+.traffic {
+  display: flex;
+  align-items: flex-start;
+}
+.traffic h6 {
+  font-weight: 500;
+  background-color: #4ecbd3;
+  color: #fff;
+  text-align: center;
+  padding: 2px 12px;
+  border-radius: 30px;
+  width: 70px;
+  margin-bottom: 20px;
+}
+
+.traffic img {
+  margin-right: 50px;
+}
+
+@media (max-width: 850px) {
+  .traffic_box {
+    flex-direction: column;
+    margin-top: 50px;
+    gap: 50px;
+  }
+  .traffic {
+    flex-direction: column;
+  }
+  .traffic img {
+    margin-bottom: 20px;
+  }
+  .traffic .tr-img {
+  }
+}
+
+@media (max-width: 434px) {
+  .medicalH2 {
+    font-size: 24px;
+  }
+  .medical_h3 {
+    font-size: 22px;
+  }
+  .headerTitle + img {
+    display: none;
+  }
+  .traffic {
+    flex-direction: column;
+  }
+}
