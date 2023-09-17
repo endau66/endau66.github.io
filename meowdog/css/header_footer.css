@@ -41,7 +41,7 @@ body {
   right: 50px;
   top: 880px;
   text-align: center;
-  z-index: 999;
+  z-index: 99;
 }
 .phoneText span {
   font-size: 20px;
