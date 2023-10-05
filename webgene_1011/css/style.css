@@ -1,0 +1,24 @@
+@import url("reset.css");
+body {
+  background: #000;
+  color: #fff;
+}
+
+.wrapper {
+  max-width: 1560px;
+  margin: 0 auto;
+  padding: 0 32px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.banner_pic {
+  margin: 0 auto;
+}
+
+header {
+  align-items: center;
+}/*# sourceMappingURL=style.css.map */
