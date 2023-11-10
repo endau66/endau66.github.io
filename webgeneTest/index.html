@@ -321,16 +321,18 @@
           console.log("LIFF init");
 
           // 這邊開始寫使用其他功能
-        })
-        .catch(function (error) {
-          console.log(error);
-        });
 
+          
       var id = liff.getIDToken();
       var profile = liff.getProfile();
 
       console.log(id);
       console.log(profile);
+        })
+        .catch(function (error) {
+          console.log(error);
+        });
+
     </script>
   </body>
 </html>
