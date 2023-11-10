@@ -322,11 +322,32 @@
           // 這邊開始寫使用其他功能
 
           console.log("test test test");
+
+          // if (this.isLoggedIn) {
+          //       liff.getProfile().then(profile => {
+          //          this.profile = profile
+          //           })
+          // }
+
+
+          var id = liff.getIDToken();
+  var profile = liff.getProfile();
+
+  Promise.all([id, profile])
+    .then(function (results) {
+      console.log(results[0]); // ID Token
+      console.log(results[1]); // 使用者的個人資料
+    })
+    .catch(function (error) {
+      console.log(error); // 處理錯誤
+    });
+
           
-          let id = liff.getIDToken();
-          let profile = liff.getProfile();
-          console.log(id);
-          console.log(profile);
+          
+          // let id = liff.getIDToken();
+          // let profile = liff.getProfile();
+          // console.log(id);
+          // console.log(profile);
           
         })
         .catch(function (error) {
