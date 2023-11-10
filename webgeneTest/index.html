@@ -315,18 +315,13 @@
 
       liff
         .init({
-          liffId: 2001587594-DbkLEQqL,
+          liffId: liffID,
         })
         .then(function () {
           // console.log("LIFF init");
           // 這邊開始寫使用其他功能
 
-          this.language = liff.getLanguage(); // 使用者的語言(string)
-          this.version = liff.getVersion(); // LIFF SDK 版本 (string)
-          this.isInClient = liff.isInClient(); // 回傳值是否為 LINE APP 存取 (bool)
-          this.isLoggedIn = liff.isLoggedIn(); // 使用者是否登入 LINE 帳號 (bool)
-          this.os = liff.getOS(); // 使用者作業系統 (string)
-          this.lineVersion = liff.getLineVersion(); // 使用者的 LINE 版本 (string)
+          console.log("test test test");
           
           // var id = liff.getIDToken();
           // var profile = liff.getProfile();
