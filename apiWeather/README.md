@@ -7,3 +7,10 @@
         },
         "editor.formatOnSave": false
     }
+"謝"
+
+
+"昊"
+
+
+"瀅"
