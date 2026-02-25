@@ -1,1 +1,9 @@
-# apiWeatherThd102-12
+"[markdown]": {
+        "editor.wordWrap": "on",
+        "editor.quickSuggestions": {
+            "comments": "off",
+            "strings": "off",
+            "other": "off"
+        },
+        "editor.formatOnSave": false
+    }
